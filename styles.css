@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+section {
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+#about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#about img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 2rem;
+  object-fit: cover;
+}
+
+.about-text {
+  max-width: 600px;
+}
+
+#skills {
+    text-align: center;
+}
+#skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+#skills li {
+  background: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+#projects {
+  text-align: center;
+}
+
+.project-card {
+  margin: 1rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  max-width: 700px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+#resume a {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#contact p {
+  margin: 0.5rem 0;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+#header {
+    width: 100%;
+    color: #fff;
+    background-color: rgb(10, 9, 9);
+    text-align: center;
+    height: 40px;
+    border-radius: 5px
+}
+
+#header h2 {
+    margin-bottom: 0.5rem;
+}
+
+#container {
+    width: 100%;
+    background-color: #fbfbf9;
+    margin: auto;
+}
+#first {
+    width: 50%;
+    float: left;
+    height: 320px;
+    text-align: center;
+        background-color: rgb(198, 198, 210);
+}
+#second {
+    width: 50%;
+    float: left;
+    height: 320px;
+    text-align: center;
+    background-color: rgb(206, 224, 206);
+}
+#clear {
+    clear: both;
+}
+
